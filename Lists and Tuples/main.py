@@ -3,7 +3,7 @@ movies = []
 movie1 = input("Enter your fav movie : ")
 movie2 = input("Enter your fav movie : ")
 movie3 = input("Enter your fav movie : ")
-# list = [movie1,movie2,movie3] #alternative
+# list = [movie1,movie2,movie3] #alternativee
 movies.append(movie1)
 movies.append(movie2)
 movies.append(movie3)
@@ -12,9 +12,9 @@ print(movies)
 
 # WAP to check if a list contains a palindrome of elements. (Hint: use copy() method
 
-# list = [1,2,3,3,2,1]
-# palindrome = list.copy()
-# palindrome.reverse()
+list = [1,2,3,3,2,1]
+palindrome = list.copy()
+palindrome.reverse()
 
 if(palindrome == list):
     print("palindrome list")
